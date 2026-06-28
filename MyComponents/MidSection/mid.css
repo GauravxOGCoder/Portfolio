@@ -1,0 +1,68 @@
+.Mid-text {
+  font-size: 20px;
+
+}
+.Java {
+    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Python {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.WD {
+    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.AI {
+    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ri-java-line {
+     color:hwb(34 8% 7% / 0.842);
+  font-size: 80px;
+  background-color: rgba(241, 202, 144, 0.603);
+  border-radius:20px;
+  padding:20px;
+  box-shadow: 3px 3px 10px rgba(245, 189, 5, 0.507) , -3px -3px  14px rgba(230, 178, 9, 0.466);
+      text-shadow:1px 1px black;
+}
+.ri-code-box-fill {
+   color:hwb(113 2% 67% / 0.966);
+  font-size: 80px;
+    background-color: rgba(241, 202, 144, 0.603);
+  border-radius:20px;
+  padding:20px;
+box-shadow: 3px 3px 10px rgba(30, 233, 3, 0.507) , -3px -3px  14px rgba(92, 199, 30, 0.836);
+    text-shadow:1px 1px black;
+}
+.ri-global-fill {
+    color:hwb(219 3% 12% / 0.747);
+  font-size: 80px;
+    background-color: rgba(241, 202, 144, 0.603);
+  border-radius:20px;
+  padding:20px;
+  box-shadow: 3px 3px 10px rgba(16, 184, 250, 0.507) , -3px -3px  14px rgba(51, 48, 235, 0.466);
+      text-shadow:1px 1px black;
+}
+.ri-pencil-ai-2-fill {
+    text-shadow:1px 1px black;
+   color:hwb(293 4% 23% / 0.705); 
+  font-size: 80px;
+    background-color: rgba(241, 202, 144, 0.603);
+  border-radius:20px;
+  padding:20px;
+box-shadow: 3px 3px 10px rgba(247, 1, 255, 0.815) , -3px -3px  14px rgba(196, 28, 182, 0.61);
+
+}
+h2{
+    font-weight: bold;
+}

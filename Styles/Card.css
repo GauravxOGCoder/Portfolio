@@ -1,0 +1,132 @@
+.Parent{
+  box-sizing: border-box;
+  display:grid;
+  grid-template-columns: repeat(4 ,1fr);
+  align-items:stretch;
+}
+.Card {
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+margin:10px;
+padding:10px;
+width:320px;
+height:420px;
+border:1px solid black;
+background-image: linear-gradient(to bottom, #0585f5, #094b85);
+border-radius:20px;
+overflow: visible ;
+}
+.Top img{
+margin:0px;
+width:300px;
+height:200px;
+object-fit:cover;
+border-radius:400px;
+border:1px solid black;
+background-image: linear-gradient(to bottom, #064d8b, #0d87f1);
+transition:1s ease;
+}
+.Top img:hover{
+  width:200px;
+  height:100px;
+  background-image: linear-gradient(to top, #05e344, #e72c0f);
+}
+.Top{
+margin: 0px;
+padding:5px;
+display: flex;
+align-items: right;
+justify-content: space-between;
+}
+.Top span{
+  margin:0px;
+  color:rgb(31, 83, 1);
+  background-image: linear-gradient(to right, #cff10b, #08eb41);
+  font-weight: bold;
+  width:100%;
+  padding:5px;
+  height: 30px;
+border:1px solid green;
+border-radius:20px;
+font-size:10px;
+}
+
+.center{
+  color:rgb(226, 211, 7);
+  height: 200px;
+  padding:0px;
+  margin:0px;
+  font-size: 30px;
+  text-align: left;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;
+  width:100%;
+  text-shadow: 2px 2px black,-2px -2px rgb(44, 10, 239);
+
+}
+
+.Upper-Center span{
+  text-shadow: 2px 2px black;
+  letter-spacing: 2px;
+  margin: 10px ;
+  padding:5px;
+  font-size: 18px;
+  display:block;
+  text-align: center;
+ 
+  height: 50px;
+  font-weight: bold;
+   margin-top: 0px ;
+   margin-Bottom: 5px;
+   border-radius: 10px;
+   color:rgb(4, 255, 0);
+   background-image: linear-gradient(to bottom , rgb(7, 235, 151) ,rgba(5, 98, 157, 0.952))
+}
+
+.Card .Bottom{
+  margin-top:10px;
+  margin-bottom:10px;
+  width:100%;
+  display:flex;
+  align-items: left;
+  justify-content: space-between;
+  border-top:2px solid rgb(26, 197, 129);
+  height: 100px;
+  box-shadow: 1px 1px 2px black;
+  border-radius: 20px;
+}
+
+.Bottom  button {
+
+  transition: 0.5s ease;
+  display:flex;
+  align-items: center;
+  text-align: center;
+  border:none;
+  border-radius:20px;
+  margin:10px;
+}
+.normal{
+ 
+  font-weight: Bold;
+  background-image:linear-gradient(to left , #fff5f5,#fdfdfd) ;
+}
+.normal:hover{
+  width:80px;
+  background-image:linear-gradient(to left , #cc4848,#f00404) ;
+}
+.Follow{
+  width:110px;
+  height: 50px;
+  padding:15px;
+  font-weight: Bold;
+  font-size: 25px;
+  background-image:linear-gradient(to right , #1549da,#2c01eb) ;
+}
+.Follow:hover{
+  background-image:linear-gradient(to right ,#0be65f, #86da07) ;
+}
+

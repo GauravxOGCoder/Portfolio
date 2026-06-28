@@ -1,0 +1,55 @@
+.Content{
+
+    display:flex;
+    align-items: center;
+    width:500px;
+    flex-direction: column;
+    height: fit-content;
+    padding:25px;
+    position:relative;
+    left:150px;
+    padding-top:0px;
+}
+.info{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.Info h2{
+    
+  color:white;
+  font-size: 60px;
+  font-weight: bolder;
+}
+.Info h1{
+    
+margin:0px;
+  color:white;
+  font-size: 55px;
+  font-weight: bold;
+}
+.Info p{
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.Btn{
+color:white;
+margin-bottom:0px;
+margin-top:15px;
+ gap:50px;
+ display:flex;
+ justify-content: space-between;
+ font-size:28px;
+}
+.Btn button{
+    margin:5px;
+    background-color: rgba(13, 2, 18, 0.542);
+    width:40px;
+}
+.Btn button:hover{
+    margin:5px;
+    background-color: rgba(13, 2, 18, 0.939);
+    width:40px;
+}
